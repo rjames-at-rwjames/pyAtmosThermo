@@ -1,3 +1,5 @@
+__version__ = '0.1'
+
 from .constant import atmos as catmos
 from .constant import earth as cearth
 
