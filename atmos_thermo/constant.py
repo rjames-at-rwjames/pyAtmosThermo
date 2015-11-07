@@ -55,10 +55,12 @@ class _atmos_const(object):
 
     @readonly
     def Lv0():
+        'Latent heat of vaporization for water at 0 degrees C'
         return 2.501E6  # , ureg['J / (kg * degK)']
 
     @readonly
     def L_v():
+        'Latent heat of vaporization for water at 100 degrees C'
         return 2.26E6
 
 
