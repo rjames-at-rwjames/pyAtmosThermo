@@ -3,7 +3,7 @@ __version__ = '0.1'
 from .constant import atmos as catmos
 from .constant import earth as cearth
 
-from atmoslib import \
+from .atmoslib import \
     e_from_r_p, \
     esat_from_T, \
     h_Em1994_from_r_T_z, \
