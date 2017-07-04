@@ -1,7 +1,7 @@
-#!/usr/bin/env python
 
-from .constant import atmos as catmos
-from .constant import earth as cearth
+
+from constant import atmos as catmos
+from constant import earth as cearth
 import numpy
 
 
